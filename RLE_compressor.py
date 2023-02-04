@@ -34,7 +34,7 @@ def rlecompressor (data):
 
     return comprimido
 
-arquivo = open('a.txt', 'rb')   #arquivo lido em binário
+arquivo = open('testeCompressor.txt', 'rb')   #arquivo lido em binário
 data = arquivo.read()               #le o arquivo e armazena em data
 #print(data)
 
